@@ -13,6 +13,13 @@
     padding: 0px;
 }
 
+#iconoWhattsap{
+    position: fixed;
+    color:  yellow;
+    right: 3%;
+    bottom: 3%;
+}
+
 
 
 /* FONDOS */
