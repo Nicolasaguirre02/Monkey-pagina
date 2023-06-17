@@ -1,0 +1,7 @@
+@mixin fondos ($fondo){
+    background-image: $fondo;
+
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}

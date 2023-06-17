@@ -1,0 +1,28 @@
+/* ESTILOS DEL MENU */
+
+/* imagen del Logo */
+#logo{
+    width: 8%;
+    margin-right:50%;
+    position: relative;
+
+    img{
+        width: 18%;
+        margin-left: 10%;
+    } 
+}
+
+#menu{
+    box-shadow: 0px -1px 5px white;
+    background-color: rgba(0, 0, 0, 0.208);
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    width: 100%;
+}
+
+.item{
+    text-decoration: none;
+    color: white;
+    font-size: 17px;
+    margin:0px 10px 0px 10px ;
+
+}

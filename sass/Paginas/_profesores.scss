@@ -1,0 +1,6 @@
+@import "../Funciones/mixin";
+
+
+#fondoProfesores{
+    @include fondos(url(../imagenes/Profesores.png));
+}
