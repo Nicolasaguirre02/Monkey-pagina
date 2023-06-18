@@ -5,15 +5,22 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-     <!-- Bootrap-->
-     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
-     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz" crossorigin="anonymous"></script>
- 
+    <!-- Bootrap-->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz" crossorigin="anonymous"></script>
 
-    <title>Actividades</title>
-    <link rel="icon" type="image/png" href="../imagenes/logo-transparente.png">
+    <!-- Animacion -->
+  <link
+  rel="stylesheet"
+  href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+  />
 
-    <link rel="stylesheet" href="../css/estilos.css">
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+
+  <title>Actividades</title>
+  <link rel="icon" type="image/png" href="../imagenes/logo-transparente.png">
+
+  <link rel="stylesheet" href="../css/estilos.css">
 
 </head>
 <body  id="bodyActividad" >
@@ -58,8 +65,8 @@
 
         <!-- Contenido princiapl -->
 
-        <main class="principal">
-            <h1 class="titulo">Nuestras actividades</h1>
+        <main class="principal text-center">
+            <h1 class="titulo animate__animated animate__bounceInLeft">Nuestras actividades</h1>
         </main>
     </header>
     
@@ -71,15 +78,17 @@
         <!-- imagenes: 1 -->
         <div class="row justify-content-center">
 
-     
+          
             <div class=" col-md-6 col-none-6 imagenes">
-              <div id="carouselExampleCaptions">
-                <div class="carousel-inner">
-                  <div class="carousel-item active" >
-                    <img src="../imagenes/Actividades/Personalizado.png" class="d-block w-100 actividad   " alt="...">
-                    <div class="carousel-caption d-md-block">
-                      <h5>Personalizado</h5>
-                      <p>Te ayudará a tener un cuerpo más firme y más fuerte gracias a ejercicios concretos que trabajarás de forma localizada.</p>               
+              <div data-aos="fade-right">
+                <div id="carouselExampleCaptions">
+                  <div class="carousel-inner">
+                    <div class="carousel-item active" >
+                      <img src="../imagenes/Actividades/Personalizado.png" class="d-block w-100 actividad   " alt="...">
+                      <div class="carousel-caption d-md-block">
+                        <h5>Personalizado</h5>
+                        <p>Te ayudará a tener un cuerpo más firme y más fuerte gracias a ejercicios concretos que trabajarás de forma localizada.</p>               
+                      </div>
                     </div>
                   </div>
                 </div>
@@ -88,18 +97,19 @@
          
 
           
-
+          
           <div class=" col-md-6   col-none-6 imagenes">
-            <div id="carouselExampleCaptions" class="carousel slide">
-              <div class="carousel-inner">
-                <div class="carousel-item active">
-                  <img src="../imagenes/Actividades/crossFuncional.png" class="d-block w-100  actividad" alt="...">
-                  <div class="carousel-caption d-md-block fraseActividad" >
-                    <h5 >Cross funcional</h5>
-                    <p>Es un entrenamiento de alta intensidad y fuerza basado en movimientos funcionales muy variados.</p>
+            <div data-aos="fade-left">
+              <div id="carouselExampleCaptions" class="carousel slide">
+                <div class="carousel-inner">
+                  <div class="carousel-item active">
+                    <img src="../imagenes/Actividades/crossFuncional.png" class="d-block w-100  actividad" alt="...">
+                    <div class="carousel-caption d-md-block fraseActividad" >
+                      <h5 >Cross funcional</h5>
+                      <p>Es un entrenamiento de alta intensidad y fuerza basado en movimientos funcionales muy variados.</p>
+                    </div>
                   </div>
                 </div>
-
               </div>
             </div>
           </div>
@@ -108,15 +118,16 @@
 
         <!-- imagenes: 2 -->
         <div class="row justify-content-center">
-
           <div class=" col-md-6 col-none-6 imagenes">
-            <div id="carouselExampleCaptions">
-              <div class="carousel-inner">
-                <div class="carousel-item active">
-                  <img src="../imagenes/Actividades/gap.png" class="d-block w-100 actividad" alt="...">
-                  <div class="carousel-caption d-md-block">
-                    <h5>G.A.P</h5>
-                    <p>Sesiones de tonificación de glúteo, abdominal y piernas, centrándose en 3 zonas que preocupa a muchas personas que van al gimnasio.</p>
+            <div data-aos="fade-right">
+              <div id="carouselExampleCaptions">
+                <div class="carousel-inner">
+                  <div class="carousel-item active">
+                    <img src="../imagenes/Actividades/gap.png" class="d-block w-100 actividad" alt="...">
+                    <div class="carousel-caption d-md-block">
+                      <h5>G.A.P</h5>
+                      <p>Sesiones de tonificación de glúteo, abdominal y piernas, centrándose en 3 zonas que preocupa a muchas personas que van al gimnasio.</p>
+                    </div>
                   </div>
                 </div>
               </div>
@@ -124,16 +135,17 @@
           </div>
 
           <div class=" col-md-6  col-none-6 imagenes">
-            <div id="carouselExampleCaptions" class="carousel slide">
-              <div class="carousel-inner">
-                <div class="carousel-item active">
-                  <img src="../imagenes/Actividades/mma.png" class="d-block w-100 actividad" alt="...">
-                  <div class="carousel-caption d-md-block">
-                    <h5>M M A</h5>
-                    <p>artes marciales mixta, trata de una combinación de diferentes deportes de combate y artes marciales como judo, taekwondo, jiu-jitsu, box y muay thai </p>
-                   </div>
+            <div data-aos="fade-left">
+              <div id="carouselExampleCaptions" class="carousel slide">
+                <div class="carousel-inner">
+                  <div class="carousel-item active">
+                    <img src="../imagenes/Actividades/mma.png" class="d-block w-100 actividad" alt="...">
+                    <div class="carousel-caption d-md-block">
+                      <h5>M M A</h5>
+                      <p>artes marciales mixta, trata de una combinación de diferentes deportes de combate y artes marciales como judo, taekwondo, jiu-jitsu, box y muay thai </p>
+                    </div>
+                  </div>
                 </div>
-
               </div>
             </div>
           </div>
@@ -142,15 +154,16 @@
 
         <!-- imagenes: 3 -->
         <div class="row justify-content-center">
-
           <div class=" col-md-6 col-none-6 imagenes">
-            <div id="carouselExampleCaptions">
-              <div class="carousel-inner">
-                <div class="carousel-item active">
-                  <img src="../imagenes/Actividades/Boxeo.png" class="d-block w-100 actividad" alt="...">
-                  <div class="carousel-caption d-md-block">
-                    <h5>Boxeo</h5>
-                    <p>Basado en coreografias y pasos guiados por un profesor a un ritmo dinamico y movido. es un buen trabajo cardiovascular resultando una clase muy variada divertida y eficaz</p>
+            <div data-aos="fade-right">
+              <div id="carouselExampleCaptions">
+                <div class="carousel-inner">
+                  <div class="carousel-item active">
+                    <img src="../imagenes/Actividades/Boxeo.png" class="d-block w-100 actividad" alt="...">
+                    <div class="carousel-caption d-md-block">
+                      <h5>Boxeo</h5>
+                      <p>Basado en coreografias y pasos guiados por un profesor a un ritmo dinamico y movido. es un buen trabajo cardiovascular resultando una clase muy variada divertida y eficaz</p>
+                    </div>
                   </div>
                 </div>
               </div>
@@ -158,16 +171,17 @@
           </div>
 
           <div class=" col-md-6  col-none-6 imagenes">
-            <div id="carouselExampleCaptions" class="carousel slide">
-              <div class="carousel-inner">
-                <div class="carousel-item active">
-                  <img src="../imagenes/Actividades/kick boxing.png" class="d-block w-100 actividad" alt="...">
-                  <div class="carousel-caption d-md-block">
-                    <h5>Kick boxing</h5>
-                    <p> Se trata de un deporte de contacto que alterna golpes propios del boxeo y patadas de artes marciales.</p>
+            <div data-aos="fade-left">
+              <div id="carouselExampleCaptions" class="carousel slide">
+                <div class="carousel-inner">
+                  <div class="carousel-item active">
+                    <img src="../imagenes/Actividades/kick boxing.png" class="d-block w-100 actividad" alt="...">
+                    <div class="carousel-caption d-md-block">
+                      <h5>Kick boxing</h5>
+                      <p> Se trata de un deporte de contacto que alterna golpes propios del boxeo y patadas de artes marciales.</p>
+                    </div>
                   </div>
                 </div>
-
               </div>
             </div>
           </div>
@@ -177,15 +191,16 @@
 
         <!-- imagenes: 4 -->
         <div class="row justify-content-center">
-
           <div class=" col-md-6 col-none-6 imagenes">
-            <div id="carouselExampleCaptions">
-              <div class="carousel-inner">
-                <div class="carousel-item active">
-                  <img src="../imagenes/Actividades/CrossFit.png" class="d-block w-100 actividad" alt="...">
-                  <div class="carousel-caption d-md-block">
-                    <h5>Cross fit</h5>
-                    <p>Es un sistema de acondicionamiento físico basado en ejercicios constantemente variados, con movimientos funcionales, ejecutados a alta intensidad.</p>
+            <div data-aos="fade-right">
+              <div id="carouselExampleCaptions">
+                <div class="carousel-inner">
+                  <div class="carousel-item active">
+                    <img src="../imagenes/Actividades/CrossFit.png" class="d-block w-100 actividad" alt="...">
+                    <div class="carousel-caption d-md-block">
+                      <h5>Cross fit</h5>
+                      <p>Es un sistema de acondicionamiento físico basado en ejercicios constantemente variados, con movimientos funcionales, ejecutados a alta intensidad.</p>
+                    </div>
                   </div>
                 </div>
               </div>
@@ -193,16 +208,17 @@
           </div>
 
           <div class=" col-md-6  col-none-6 imagenes">
-            <div id="carouselExampleCaptions" class="carousel slide">
-              <div class="carousel-inner">
-                <div class="carousel-item active">
-                  <img src="../imagenes/Actividades/muay thai.png" class="d-block w-100 actividad" alt="...">
-                  <div class="carousel-caption d-md-block">
-                    <h5>Muay thai</h5>
-                    <p>El Muay Thai ayuda a mejorar el rendimiento físico de la persona, su coordinación y resistencia; además de fomentar su paciencia, disciplina y control.</p>
+            <div data-aos="fade-left">
+              <div id="carouselExampleCaptions" class="carousel slide">
+                <div class="carousel-inner">
+                  <div class="carousel-item active">
+                    <img src="../imagenes/Actividades/muay thai.png" class="d-block w-100 actividad" alt="...">
+                    <div class="carousel-caption d-md-block">
+                      <h5>Muay thai</h5>
+                      <p>El Muay Thai ayuda a mejorar el rendimiento físico de la persona, su coordinación y resistencia; además de fomentar su paciencia, disciplina y control.</p>
+                    </div>
                   </div>
                 </div>
-
               </div>
             </div>
           </div>
@@ -324,13 +340,12 @@
 
     <!-- Boton ver horarios -->
     <section class="container" id="botonHorarios">
-
       <div class="row">
-
-        <div class="col-md-12">
-          <button type="button" class="btn btn-outline-light w-100"><a  href="../horarios/horarios.pdf" target="_blank">Ver horarios</a></button>
+        <div data-aos="zoom-in">
+          <div class="col-md-12">
+            <button type="button" class="btn btn-outline-light w-100"><a  href="../horarios/horarios.pdf" target="_blank">Ver horarios</a></button>
+          </div>
         </div>
-
       </div>
     </section>
     <!-- Boton ver horarios -->
@@ -365,6 +380,11 @@
     <a href="https://api.whatsapp.com/send?phone=3425035637" class="float" target="_blank"><svg id="iconoWhattsap" xmlns="http://www.w3.org/2000/svg" width="50" height="50" fill="currentColor" class="bi bi-whatsapp" viewBox="0 0 16 16">
       <path d="M13.601 2.326A7.854 7.854 0 0 0 7.994 0C3.627 0 .068 3.558.064 7.926c0 1.399.366 2.76 1.057 3.965L0 16l4.204-1.102a7.933 7.933 0 0 0 3.79.965h.004c4.368 0 7.926-3.558 7.93-7.93A7.898 7.898 0 0 0 13.6 2.326zM7.994 14.521a6.573 6.573 0 0 1-3.356-.92l-.24-.144-2.494.654.666-2.433-.156-.251a6.56 6.56 0 0 1-1.007-3.505c0-3.626 2.957-6.584 6.591-6.584a6.56 6.56 0 0 1 4.66 1.931 6.557 6.557 0 0 1 1.928 4.66c-.004 3.639-2.961 6.592-6.592 6.592zm3.615-4.934c-.197-.099-1.17-.578-1.353-.646-.182-.065-.315-.099-.445.099-.133.197-.513.646-.627.775-.114.133-.232.148-.43.05-.197-.1-.836-.308-1.592-.985-.59-.525-.985-1.175-1.103-1.372-.114-.198-.011-.304.088-.403.087-.088.197-.232.296-.346.1-.114.133-.198.198-.33.065-.134.034-.248-.015-.347-.05-.099-.445-1.076-.612-1.47-.16-.389-.323-.335-.445-.34-.114-.007-.247-.007-.38-.007a.729.729 0 0 0-.529.247c-.182.198-.691.677-.691 1.654 0 .977.71 1.916.81 2.049.098.133 1.394 2.132 3.383 2.992.47.205.84.326 1.129.418.475.152.904.129 1.246.08.38-.058 1.171-.48 1.338-.943.164-.464.164-.86.114-.943-.049-.084-.182-.133-.38-.232z"/>
     </svg></a>
+
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+      AOS.init();
+    </script>
 
 </body>
 </html>
