@@ -6,6 +6,7 @@
     @include fondos(url(../imagenes/Nosotros.jpg));
 }
 
+
 .capa{
     width: 100%;
     height: 100%;
@@ -23,31 +24,55 @@
 }
 
 .contenedor{
-    padding: 100px 0px 100px 0px;
+    padding: 60px 0px 40px 0px;
     
     .caja{
+        
         height: 320px;
-        margin: 20px 0px 20px 0px;
+        margin: 80px 0px 40px 0px;
 
         .imagen{
             height: 100%;
-            background-image: url(../../imagenes/Actividades.png);
-            background-size: cover;
-            background-repeat: no-repeat;
-            background-position: center;
-
             border-radius: 3px;
 
             box-shadow: 0px 4px 4px rgba(111, 127, 142, 1);        
 
             &:hover .capa{
-                color: red;
+                color: white;
             } 
+        }
+
+        .profe-uno{
+            background-image: url(../../imagenes/profesores/profe-1.jpg);
+            background-size: cover;
+            background-repeat: no-repeat;
+            background-position: center;
+        }
+
+        .profe-dos{
+            background-image: url(../../imagenes/profesores/profe-2.jpg);
+            background-size: cover;
+            background-repeat: no-repeat;
+            background-position: center;
+        }
+
+        .profe-tres{
+            background-image: url(../../imagenes/profesores/profe-3.jpg);
+            background-size: cover;
+            background-repeat: no-repeat;
+            background-position: center;
+        }
+
+        .profe-cuatro{
+            background-image: url(../../imagenes/profesores/profe-4.jpg);
+            background-size: cover;
+            background-repeat: no-repeat;
+            background-position: center;
         }
        
 
     }
 
 
-
 }
+
