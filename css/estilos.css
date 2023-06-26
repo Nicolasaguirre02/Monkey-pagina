@@ -109,6 +109,7 @@
 }
 .frase h1 {
   color: white;
+  font-family: "Lilita One", cursive, Arial, Helvetica, sans-serif;
 }
 
 /* Para celular */
@@ -314,29 +315,20 @@
 .contenedor .caja .imagen:hover .capa {
   color: white;
 }
-.contenedor .caja .profe-uno {
-  background-image: url(../imagenes/profesores/profe-1.jpg);
+.contenedor .caja .profe-uno, .contenedor .caja .profe-cuatro, .contenedor .caja .profe-tres, .contenedor .caja .profe-dos {
+  background-image: url(../imagenes/profesores/profe-1.png);
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
 }
 .contenedor .caja .profe-dos {
-  background-image: url(../imagenes/profesores/profe-2.jpg);
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-position: center;
+  background-image: url(../imagenes/profesores/profe-2.png);
 }
 .contenedor .caja .profe-tres {
-  background-image: url(../imagenes/profesores/profe-3.jpg);
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-position: center;
+  background-image: url(../imagenes/profesores/profe-3.png);
 }
 .contenedor .caja .profe-cuatro {
   background-image: url(../imagenes/profesores/profe-4.jpg);
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-position: center;
 }
 
 /* funciones */

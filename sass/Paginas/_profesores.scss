@@ -38,36 +38,30 @@
             box-shadow: 0px 4px 4px rgba(111, 127, 142, 1);        
 
             &:hover .capa{
-                color: white;
+                color: $colorBlanco;
             } 
         }
 
         .profe-uno{
-            background-image: url(../../imagenes/profesores/profe-1.jpg);
+            background-image: url(../imagenes/profesores/profe-1.png);
             background-size: cover;
             background-repeat: no-repeat;
             background-position: center;
         }
 
         .profe-dos{
-            background-image: url(../../imagenes/profesores/profe-2.jpg);
-            background-size: cover;
-            background-repeat: no-repeat;
-            background-position: center;
+            @extend .profe-uno;
+            background-image: url(../imagenes/profesores/profe-2.png);
         }
 
         .profe-tres{
-            background-image: url(../../imagenes/profesores/profe-3.jpg);
-            background-size: cover;
-            background-repeat: no-repeat;
-            background-position: center;
+            @extend .profe-uno;
+            background-image: url(../imagenes/profesores/profe-3.png);
         }
 
         .profe-cuatro{
-            background-image: url(../../imagenes/profesores/profe-4.jpg);
-            background-size: cover;
-            background-repeat: no-repeat;
-            background-position: center;
+            @extend .profe-uno;
+            background-image: url(../imagenes/profesores/profe-4.jpg);
         }
        
 

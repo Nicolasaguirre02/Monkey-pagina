@@ -26,11 +26,14 @@
   /*Seccion imagenes  */
 .imagenes{
     margin-top: 5%;
+
+    
+
 }
 
 .actividad{
     border-radius: 5px;
-    border: 1px solid white;
+    border: 1px solid $colorBlanco;
 }
 
 
@@ -48,7 +51,7 @@
     
     .tituloCol{
         background-color: rgb(44, 44, 44);
-        color: white;
+        color: $colorBlanco;
     }
 
     .tiulorow{
