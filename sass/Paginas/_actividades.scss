@@ -1,6 +1,27 @@
 @import "../Funciones/mixin";
 
 /*ACTIVIDADES*/
+
+.principal{
+    width: 100%;
+    height: 500px;
+
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    .titulo{
+        font-size: 3rem;
+        font-weight: 900;
+        letter-spacing: 3px;
+        text-shadow: 0px 0px 4px $colorBlanco;
+        font-family: 'Anton', sans-serif, 'Permanent Marker', cursive;
+        color: $colorBlanco
+    }
+}
+
+
 #fondoActividades{
     @include fondos(url(../imagenes/Actividades.png));
 }
