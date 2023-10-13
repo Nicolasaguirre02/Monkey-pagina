@@ -3,6 +3,12 @@
 @import "Componentes/footer";
 @import "Componentes/variables";
 
+/* funciones */
+@import "Funciones/media";
+@import "Funciones/mixin";
+
+
+
 /* paginas */
 @import "Paginas/inicio";
 @import "Paginas/actividades";
@@ -11,7 +17,5 @@
 
 
 
-/* funciones */
-@import "Funciones/media";
-@import "Funciones/mixin";
+
 
