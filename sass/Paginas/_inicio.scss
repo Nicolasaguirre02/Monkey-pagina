@@ -21,11 +21,8 @@
 }
 
 
-
-
-
 #fondoInicio{
-    @include fondos(url(../imagenes/Inicio.png));
+    @include fondos(url(../../imagenes/Inicio.webp));
 }
 
 

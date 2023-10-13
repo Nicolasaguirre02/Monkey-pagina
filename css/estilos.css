@@ -67,7 +67,7 @@
 }
 
 #fondoInicio {
-  background-image: url(../imagenes/Inicio.png);
+  background-image: url(../../imagenes/Inicio.webp);
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
@@ -151,7 +151,7 @@
 }
 
 #fondoActividades {
-  background-image: url(../imagenes/Actividades.png);
+  background-image: url(../imagenes/Actividades.webp);
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
@@ -228,7 +228,7 @@
 }
 
 #fondoContactanos {
-  background-image: url(../imagenes/Contactanos.png);
+  background-image: url(../imagenes/Contactanos.webp);
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
